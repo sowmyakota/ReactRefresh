@@ -4,7 +4,6 @@ import BookList from "./components/BookList";
 
 function App() {
   const [books, setBooks] = useState([]);
-
   const editBookByID = (id, newTitle) => {
     const updatedBooks = books.map((book) => {
       if (book.id === id) {
