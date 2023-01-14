@@ -12,7 +12,7 @@ function App() {
     // const response = await axios.get("http://localhost:3001/books");
     // setBooks(response.data);
     const response = await axios.get("http://localhost:3001/books");
-    setBooks(response);
+    setBooks(response.data);
   };
   const editBookByID = async (id, newTitle) => {
     const response = await axios.put(`http://localhost:3001/books/${id}`, {
