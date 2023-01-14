@@ -1,28 +1,8 @@
 {
   "books": [
     {
-      "title": "testing",
-      "id": 1
-    },
-    {
       "title": "harry porter",
       "id": 2
-    },
-    {
-      "title": "books",
-      "id": 3
-    },
-    {
-      "title": "wakanda forever 1",
-      "id": 4
-    },
-    {
-      "title": "",
-      "id": 5
-    },
-    {
-      "title": "",
-      "id": 6
     },
     {
       "title": "RRR",
